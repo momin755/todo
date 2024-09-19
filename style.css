@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to right, #341f97 , #5f27cd);
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 100px;
+}
+.todo{
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    background: #fff;
+    text-align: center;
+}
+.todo h1{
+    color: #ee5253;
+}
+.todo input{
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 1px solid salmon;
+}
+.todo button{
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 1px solid salmon;
+    font-weight: bold;
+    background: rgb(226, 45, 25);
+    color: #fff;
+    margin-left: -8px;
+    cursor: pointer;
+}
